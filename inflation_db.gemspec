@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = %q{A gem that calculates the inflation of a US dollar amount from any year from 1635 to the present.}
   spec.description = %q{Enter a dollar amount and the year, and this gem will calculate that value in 2019 dollars}
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/dybushnell/inflation_db"
   spec.license = "MIT"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
