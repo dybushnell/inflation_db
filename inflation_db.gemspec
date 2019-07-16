@@ -4,7 +4,7 @@ require "inflation_db/version"
 
 Gem::Specification.new do |spec|
   spec.name = "inflation_db"
-  spec.version = "0.1.0"
+  spec.version = "0.2.0"
   spec.authors = ["Dave Bushnell"]
   spec.email = ["dybushnell@gmail.com"]
 
