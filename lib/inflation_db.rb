@@ -387,7 +387,7 @@
   "2019" => 30.86060241,
 }
 
-def calculate_inflation(year, then_amount)
-  amount_with_inflation = "%.2f" % (then_amount * 30.86060241 / @inflation_hash.fetch(year.to_s))
+def calculate_inflation(from_year, then_amount, to_year = 2019)
+  amount_with_inflation = "%.2f" % (then_amount * @inflation_hash.fetch(to_year.to_s) / @inflation_hash.fetch(from_year.to_s))
   amount_with_inflation
 end

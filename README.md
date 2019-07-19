@@ -20,15 +20,36 @@ Or install it yourself as:
 
 ## Usage
 
-Call on the calculation method by adding this line to your code:
+To calculate inflation on an amount from 1635-2018 to 2019, add this line to your code:
 
 ```calculate_inflation(year_of_original_amount, that_original_amount)```
 
 and the method will return a float rounded to two decimal places.
 
-## Roadmap
+To calculate inflation on an amount from 1635-2019 to any other year 1635, add this line to your code:
 
-Future releases will include the ability to calculate inflation from any year (post-1635) to any later year (not just 2019); and the ability to reverse the calculation, ie calculate what a 2019 dollar amount would have been worth in a previous year.
+```calculate_inflation(year_of_original_amount, that_original_amount, year_of_new_amount)```
+
+
+Examples:  
+ 
+ - to calculate inflation on $10 from 1776 to 2019, you can write
+
+```calculate_inflation(1776, 10)```
+
+  or
+
+```calculate_inflation(1776, 10, 2019)```
+
+ - to calculate inflation on $10 from 1776 to 1980, you would write
+ 
+```calculate_inflation(1776, 10, 1980)```
+
+- to calculate what $100 in 2019 would have been worth in 1888, you would write
+
+```calculate_inflation(2019, 100, 1888)```
+
+
 
 ## Contributing
 

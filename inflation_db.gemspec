@@ -4,11 +4,11 @@ require "inflation_db/version"
 
 Gem::Specification.new do |spec|
   spec.name = "inflation_db"
-  spec.version = "0.3.0"
+  spec.version = "1.0.0"
   spec.authors = ["Dave Bushnell"]
   spec.email = ["dybushnell@gmail.com"]
 
-  spec.summary = %q{A gem that calculates the inflation of a US dollar amount from any year from 1635 to the present.}
+  spec.summary = %q{A gem that calculates the inflation of a US dollar amount between any two years between 1635-2019.}
   spec.description = %q{It's 2019. Those other inflation-calculating gems haven't been updated since 2014.}
   spec.homepage = "https://github.com/dybushnell/inflation_db"
   spec.license = "MIT"
